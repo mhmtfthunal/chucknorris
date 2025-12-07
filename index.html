@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Şakaları</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chuck Norris Şakaları</h1>
+            <p>Ünlü şair Chuck Norris'i anma ve yaşatma</p>
+        </header>
+
+        <main>
+            <div class="joke-container">
+                <div class="joke-card">
+                    <div class="loader" id="loader"></div>
+                    <div class="joke-content" id="jokeContent" style="display: none;">
+                        <p id="jokeText">Chuck Norris şakası yükleniyor...</p>
+                    </div>
+                </div>
+                <button id="newJokeBtn" class="btn-primary">Başka Bir Şaka</button>
+            </div>
+
+            <div class="chuck-image">
+                <img src="https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png" alt="Chuck Norris Logo">
+            </div>
+        </main>
+
+        <footer>
+            <p>API by <a href="https://api.chucknorris.io" target="_blank">Chuck Norris API</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
